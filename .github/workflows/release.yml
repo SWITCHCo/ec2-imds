@@ -1,4 +1,8 @@
-on: release
+on:
+  release:
+    types:
+      - created
+
 name: Build
 jobs:
   release-linux-386:
