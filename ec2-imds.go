@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var VERSION = "0.0.2"
+var VERSION = "1.0.0"
 var flagMaxRetries int
 
 func handleResponse(response string, err error) {
