@@ -10,3 +10,4 @@ RUN curl "https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz" -o go.tar
 
 ADD entrypoint.sh /entrypoint.sh
 ADD build.sh /build.sh
+ENTRYPOINT ["/entrypoint.sh"]
